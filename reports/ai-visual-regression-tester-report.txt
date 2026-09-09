@@ -1,0 +1,75 @@
+======================================================================
+  ai visual regression tester
+======================================================================
+
+Author: Maharshi Soni
+Category: qa-ai-automation
+Difficulty: advanced
+
+----------------------------------------------------------------------
+DESCRIPTION
+----------------------------------------------------------------------
+Traditional visual regression tools flag _that_ something changed but rarely explain _what_ changed. This project closes that gap. Given a pair of screenshots (baseline vs. current), the pipeline:
+
+----------------------------------------------------------------------
+TECH STACK
+----------------------------------------------------------------------
+  - Pillow
+  - scikit-image
+  - numpy
+  - pytest
+
+----------------------------------------------------------------------
+FEATURES
+----------------------------------------------------------------------
+
+----------------------------------------------------------------------
+SAMPLE INPUT
+----------------------------------------------------------------------
+  See README
+
+  Example:
+    See README
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT
+----------------------------------------------------------------------
+  See README
+
+  Example:
+    See README
+
+----------------------------------------------------------------------
+PROJECT STRUCTURE
+----------------------------------------------------------------------
+  .gitignore
+  LICENSE
+  main.py
+  README.md
+  requirements.txt
+  tests/conftest.py
+  tests/test_classifier.py
+  tests/test_comparator.py
+  tests/test_image_generator.py
+  tests/test_reporter.py
+  tests/test_responsive.py
+  tests/__init__.py
+  visual_regression/classifier.py
+  visual_regression/comparator.py
+  visual_regression/image_generator.py
+  visual_regression/reporter.py
+  visual_regression/responsive.py
+  visual_regression/utils.py
+  visual_regression/__init__.py
+
+----------------------------------------------------------------------
+TEST RESULTS
+----------------------------------------------------------------------
+  Status: PASSED
+  Tests Run: 5
+  Passed: 5
+  Failed: 0
+
+======================================================================
+  Author: Maharshi Soni  |  License: MIT
+======================================================================

@@ -1,0 +1,16 @@
+﻿{
+    "features":  [
+
+                 ],
+    "description":  "Uses computer vision (SSIM, perceptual hashing) to detect and classify visual differences between baseline and current screenshots as layout shift, color change, missing element, or font change.",
+    "tech_stack":  [
+                       "Pillow",
+                       "scikit-image",
+                       "numpy",
+                       "pytest"
+                   ],
+    "difficulty":  "advanced",
+    "category":  "qa-ai-automation",
+    "title":  "AI Visual Regression Tester",
+    "project_name":  "ai-visual-regression-tester"
+}
