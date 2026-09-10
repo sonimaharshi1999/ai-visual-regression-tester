@@ -1,5 +1,7 @@
 # AI Visual Regression Tester
 
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 A computer-vision toolkit that detects and **classifies** visual differences between baseline and current web-page screenshots. It goes beyond simple pixel diffing by combining three comparison strategies (SSIM, perceptual hashing, pixel difference) with a feature-engineered ML classifier that labels every detected change as one of five meaningful categories.
 
 ---
